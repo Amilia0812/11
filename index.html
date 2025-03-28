@@ -15,10 +15,13 @@
 
   <title>Healet</title>
   <!-- Google Fonts (deferred) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
   <noscript>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" rel="stylesheet">
   </noscript>
+
 
   <!-- bootstrap core css -->
   <link rel="stylesheet" href="css/bootstrap.css" media="print" onload="this.media='all'">
@@ -30,7 +33,12 @@
   <!-- responsive style -->
   <link href="css/responsive.css" rel="stylesheet" />
   <style>
-
+    .img-box img {
+      width: 100%;
+      height: auto;
+      aspect-ratio: 1 / 1;
+      display: block;
+    }
 
 
     .slider_section {
@@ -700,8 +708,7 @@
 
 
 <!-- jQery -->
-<script src="js/jquery-3.4.1.min.js"></script>
-<!-- bootstrap js -->
+<<script src="js/jquery-3.4.1.min.js" defer></script>
 <script src="js/bootstrap.js" defer></script>
 <script src="js/custom.js" defer></script>
 
